@@ -27,17 +27,17 @@ export default function Footer() {
           
           <div className="flex items-center gap-2">
             <User className="w-4 h-4 text-gold-400" />
-            <span>Presented by: <strong className="text-white font-semibold">[Student Name]</strong></span>
+            <span>Presented by: <strong className="text-white font-semibold">Akshith</strong></span>
           </div>
 
           <div className="flex items-center gap-2">
             <IdCard className="w-4 h-4 text-gold-400" />
-            <span>Section / Roll No: <strong className="text-white font-semibold">[Roll Number Placeholder]</strong></span>
+            <span>Section: <strong className="text-white font-semibold">AM1</strong></span>
           </div>
 
           <div className="flex items-center gap-2">
             <Calendar className="w-4 h-4 text-gold-400" />
-            <span>Submission Date: <strong className="text-white font-semibold">[Submission Date Placeholder]</strong></span>
+            <span>Submission Date: <strong className="text-white font-semibold">September 2026</strong></span>
           </div>
 
         </div>

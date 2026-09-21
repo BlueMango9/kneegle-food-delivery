@@ -45,14 +45,14 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* Course & Student Placeholders */}
+        {/* Course & Student Information */}
         <div className="hidden md:flex items-center gap-4 text-xs font-medium">
           <div className="bg-plum-100/70 border border-plum-800/15 text-plum-900 px-3 py-1.5 rounded-full flex items-center gap-1.5">
             <BookOpen className="w-3.5 h-3.5 text-plum-700" />
-            <span>English — [Course Code]</span>
+            <span>English</span>
           </div>
           <div className="bg-white border border-slate-200 text-slate-700 px-3 py-1.5 rounded-full shadow-2xs">
-            Student: <span className="font-semibold text-slate-900">[Student Name]</span>
+            Student: <span className="font-semibold text-slate-900">Akshith</span>
           </div>
         </div>
 
@@ -70,8 +70,8 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3 shadow-lg">
           <div className="pt-2 pb-3 border-b border-slate-100 flex flex-col gap-2">
-            <div className="text-xs text-slate-600">Course: <span className="font-semibold text-plum-900">English — [Course Code]</span></div>
-            <div className="text-xs text-slate-600">Presenter: <span className="font-semibold text-plum-900">[Student Name]</span></div>
+            <div className="text-xs text-slate-600">Course: <span className="font-semibold text-plum-900">English</span></div>
+            <div className="text-xs text-slate-600">Presenter: <span className="font-semibold text-plum-900">Akshith (Section AM1)</span></div>
           </div>
           {navLinks.map((link) => (
             <a
