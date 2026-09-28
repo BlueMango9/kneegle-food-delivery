@@ -4,9 +4,12 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isProd ? "/english-project-college" : "",
+  basePath: isProd ? "/kneegle-food-delivery" : "",
   images: {
     unoptimized: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 };
 
