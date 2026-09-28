@@ -1,0 +1,32 @@
+# dependencies
+/node_modules
+/backend/node_modules
+/.pnp
+.pnp.*
+
+# C compilation binaries
+backend/tax_engine.exe
+backend/tax_engine
+*.exe
+*.o
+
+# next.js
+/.next/
+/out/
+/build
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+*.pem
+*.log
+
+# env files
+.env*
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
