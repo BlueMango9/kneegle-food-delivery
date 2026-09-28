@@ -1,0 +1,13 @@
+{
+  "name": "kneegle-backend",
+  "version": "1.0.0",
+  "description": "Express API bridge for C tax engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.3"
+  }
+}

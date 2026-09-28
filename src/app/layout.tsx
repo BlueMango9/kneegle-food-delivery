@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-  display: "swap",
-});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -15,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "We Should All Be Feminists | Academic Presentation",
-  description: "Academic presentation on Chimamanda Ngozi Adichie's essay 'We Should All Be Feminists' for SRM Institute of Science and Technology.",
+  title: "Kneegle - Order Food Online | University Campus Delivery",
+  description: "Order food online from top restaurants near Kattankulathur, Chennai. Fast delivery to SRM Campus.",
 };
 
 export default function RootLayout({
@@ -25,8 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable} scroll-smooth`}>
-      <body className="font-sans bg-cream-50 text-slate-800 antialiased selection:bg-plum-900 selection:text-gold-400">
+    <html lang="en" className={`${inter.variable}`}>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      </head>
+      <body className="font-sans bg-gray-100 text-gray-900 antialiased selection:bg-[#E23744] selection:text-white min-h-screen">
         {children}
       </body>
     </html>
